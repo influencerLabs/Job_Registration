@@ -1,0 +1,495 @@
+
+
+.logo-small {
+  height: 40px;
+  max-width: 100%;
+  object-fit: contain;
+  text-align: center;
+  align-items: center;
+
+}
+
+.logo-large {
+  height: 70px;
+  max-width: 100%;
+  object-fit: contain;
+
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: #fff;
+  
+  
+  
+}
+
+/* Optional: Add a transition for smooth color change on scroll */
+.sticky-top.scrolled {
+  background-color: white;
+  /* slightly transparent white */
+  transition: background-color 200ms linear;
+}
+
+h1 {
+  color: #112d58;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #112d58;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.card-span-img {
+  width: 134px;
+  height: 134px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.testimonial-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CLIENT LOGO*/
+
+.clientLogo-container {
+overflow: hidden;
+white-space: nowrap;
+width: 100%;
+background-color: #fff;
+display: flex;
+align-items: center;
+text-align: center;
+position: relative;
+}
+
+.clientLogo-wrapper {
+display: flex;
+animation: scroll 100s linear infinite;
+}
+
+.clientLogo {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 30px;
+flex-shrink: 0;
+height: 150px;
+}
+
+.clientLogo img {
+max-width: 150px;
+max-height: 100px;
+width: auto;
+height: auto;
+object-fit: contain;
+}
+
+@keyframes scroll {
+from {
+transform: translateX(0);
+}
+to {
+transform: translateX(-50%);
+}
+}
+
+.job-title {
+font-size: 2.5rem;
+font-weight: 600;
+line-height: 1.2;
+margin-top: 2rem;
+margin-bottom: 1rem;
+color: #0a2540;
+}
+
+.job-stats {
+font-size: 1rem;
+line-height: 1.5;
+margin-bottom: 1.5rem;
+color: #4a4a4a;
+}
+
+.register-btn {
+background-image: linear-gradient(to right, #007bff, #0056b3);
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 0.9rem;
+font-weight: 600;
+border-radius: 50px;
+cursor: pointer;
+transition: background-image 0.3s ease;
+}
+
+.register-btn:hover {
+background-image: linear-gradient(to right, #0056b3, #004085);
+}
+
+@media (min-width: 768px) {
+.job-title {
+font-size: 2rem;
+}
+
+.job-stats {
+font-size: 1.1rem;
+}
+
+.register-btn {
+font-size: 1rem;
+}
+}
+
+@media (min-width: 992px) {
+.job-title {
+font-size: 2.2rem;
+}
+}
+
+@media (min-width: 1200px) {
+.job-title {
+font-size: 2.5rem;
+}
+}
+.card-span-img {
+height: 134px;
+width: 134px;
+overflow: hidden;
+}
+
+.card-span-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.site-footer {
+background-color: #4a90e2;
+color: white;
+padding: 50px 0;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.footer-col {
+flex: 1;
+}
+
+.footer-col h4 {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.footer-col ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-col ul li {
+margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+color: white;
+text-decoration: none;
+}
+
+.footer-social {
+text-align: center;
+margin-top: 30px;
+}
+
+.footer-social a {
+color: white;
+font-size: 24px;
+margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+.footer-container {
+flex-direction: column;
+}
+
+.footer-col {
+margin-bottom: 30px;
+}
+}
+
+.leapcamp-showcase {
+background: linear-gradient(135deg, #f6f9fc 0%, #e9f2f9 100%);
+padding: 60px 0;
+overflow: hidden;
+position: relative;
+}
+
+.leapcamp-showcase .container {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+z-index: 1;
+}
+
+.leapcamp-showcase .content {
+max-width: 60%;
+}
+
+.leapcamp-showcase .powered-by {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-bottom: 30px;
+}
+
+.leapcamp-showcase .influencer-logo {
+width: 250px; 
+margin-bottom: 15px;
+}
+
+.leapcamp-showcase .powered-by p {
+font-size: 1.1rem;
+color: #34495e;
+font-weight: 500;
+margin: 0;
+}
+
+.leapcamp-showcase .title {
+font-size: 2.5rem;
+color: #2c3e50;
+margin-bottom: 15px;
+font-weight: 700;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.leapcamp-showcase .subtitle {
+font-size: 1.2rem;
+color: #34495e;
+margin-bottom: 25px;
+font-weight: 300;
+}
+
+.leapcamp-showcase .features {
+list-style-type: none;
+padding: 0;
+margin-bottom: 30px;
+}
+
+.leapcamp-showcase .features li {
+margin-bottom: 10px;
+font-size: 1.1rem;
+color: #2980b9;
+}
+
+.leapcamp-showcase .features i {
+margin-right: 10px;
+color: #3498db;
+}
+
+.leapcamp-showcase .cta-button {
+display: inline-block;
+background-color: #e74c3c;
+color: white;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 30px;
+font-weight: bold;
+text-transform: uppercase;
+transition: all 0.3s ease;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.leapcamp-showcase .cta-button:hover {
+background-color: #c0392b;
+transform: translateY(-2px);
+box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+.leapcamp-showcase .logo-container {
+max-width: 35%;
+position: relative;
+}
+
+.leapcamp-showcase .logo {
+max-width: 100%;
+height: auto;
+position: relative;
+z-index: 2;
+animation: float 3s ease-in-out infinite;
+}
+
+.leapcamp-showcase .logo-backdrop {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 120%;
+height: 120%;
+background: radial-gradient(circle, rgba(52,152,219,0.2) 0%, rgba(52,152,219,0) 70%);
+border-radius: 50%;
+z-index: 1;
+animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes float {
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+50% { transform: translate(-50%, -50%) scale(1.05); opacity: 0.8; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+.leapcamp-showcase .container {
+flex-direction: column;
+text-align: center;
+}
+
+.leapcamp-showcase .content,
+.leapcamp-showcase .logo-container {
+max-width: 100%;
+}
+
+.leapcamp-showcase .powered-by {
+align-items: center;
+}
+
+.leapcamp-showcase .influencer-logo {
+width: 200px; /* Slightly smaller on mobile */
+}
+
+.leapcamp-showcase .logo-container {
+margin-top: 40px;
+}
+}
+
+@media (max-width: 740px) {
+.footer-col {
+width: 50%;
+margin-bottom: 30px;
+text-align: center;
+}
+
+.footer-col h4::before {
+all: unset;
+}
+}
+
+@media (max-width: 555px) {
+.footer-col {
+width: 100%;
+}
+}
+
+.logimg {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+background-color: #ffffff;
+padding-top: 10px;
+padding-bottom: 0px;
+margin: 0px;
+}
+.logimg p {
+font-size: 28px;
+color: #4d4f55;
+font-family: "Dancing Script", cursive;
+font-weight: 700;
+flex-shrink: 3;
+}
+.copyrig {
+text-align: center;
+background-color: #67b3f6;
+margin-bottom: 0px;
+}
+.wasapp {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  cursor: pointer;
+
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(10%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .logo-small {
+    height: 30px;
+    /* Smaller size for mobile devices */
+  }
+}
+
+@media (min-width: 768px) {
+  /* .logo-small {
+    margin-top: 37px;
+    margin-left: 60px;
+    Apply margin only on larger screens
+  } */
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    margin-top: 1rem;
+  }
+
+  .navbar-nav {
+    margin-bottom: 1rem;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media all and (max-width: 500px) {
+.logimg p {
+text-align:center;
+}
+}
